@@ -11,6 +11,7 @@ registries:
   jfrog-artifactroy:
     type: "nuget-feed"
     url: "https://jfrogghdemo.jfrog.io/artifactory/api/nuget/dependabot-nuget"
+    replaces-base: true
     username: "thavaahariharangit@github.com"  # Store username in GitHub Secrets
     password: "${{ secrets.JFROG_ARTIFACTORY_TOKEN }}"
     

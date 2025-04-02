@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8JABmDc3+yw=",
+  "success": true,
+  "projectFilePath": "/workspaces/private-registry-nuget/build.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.openapi/1.6.8/microsoft.openapi.1.6.8.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Microsoft.OpenApi/1.6.8": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.OpenApi/1.6.8": {
+      "sha512": "ZQ7rzviQNW3Isp5k0GmfO61oEYh0unFlSkyqLOxznagS7WEEVjpU8X76/sWx37iwjFn2GRhqM3nIvOCWYu4bSw==",
+      "type": "package",
+      "path": "microsoft.openapi/1.6.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "microsoft.openapi.1.6.8.nupkg.sha512",
+        "microsoft.openapi.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Microsoft.OpenApi >= 1.6.8"
+    ]
+  },
+  "packageFolders": {
+    "/home/codespace/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/workspaces/private-registry-nuget/build.csproj",
+      "projectName": "build",
+      "projectPath": "/workspaces/private-registry-nuget/build.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/private-registry-nuget/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://jfrogghdemo.jfrog.io/artifactory/api/nuget/dependabot-nuget": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Microsoft.OpenApi": {
+            "target": "Package",
+            "version": "[1.6.8, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
